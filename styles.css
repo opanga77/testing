@@ -1,0 +1,244 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color:bisque;
+}
+.inner-header{
+    width:1380px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo-container h1{
+    color: blue;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo-container h1 span{
+    font-weight: 800;
+}
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+  
+  .pill-nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* #jadie */
+  #about{
+    background-color: darkgray;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+#images{
+    display: flex;
+    flex-direction: row;
+}
+#position{
+    text-align: center;
+}
+#qualities, #goals{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* #dolphine */
+.container{
+  background-image: url("/images/yyyy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translatey(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+  font-family: sans-serif
+}
+.title h1{
+  font-size: 60px;
+  color: #EBEAE6;
+  text-align: center;
+  margin: 0;
+}
+.title p{
+  font-size: 20px;
+  color: #FCEFEF;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 7px;
+  margin-top: 10px;
+}
+.overlay{
+  background: rgba(53, 56, 56, 0.842);
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.intro{
+  text-align: center;
+  padding-top: 20px;
+  text-indent: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+/* #jose */
+
+#service{
+  font-style: italic;
+  border-width: 0rem;
+  border-color: crimson;
+  padding-inline-start: 0rem;
+ /* background-color:greenyellow;  */
+  text-align:center;
+}
+p {
+  font-size: xx-large;
+  text-align: center;
+}
+h2{
+font-style:italic;
+   font-size: xx-large;
+   /* color:gold; */
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+  }
+li{margin-left: auto;
+  font-size:x-large;
+  text-align: left;
+}
+h3{
+  font-size: x-large;
+  /* color:blue; */
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+ul{
+  margin-left:20%;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #F1F1F1}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3E8E41;
+}
+#onlinebusiness{
+  text-align: center;
+  font-size: xx-large;
+}
+.image{
+  position: center;
+  /* margin-left: 80px; */
+  float: right;
+}
+#contacts{
+  text-align: center;
+}
+  
+
+
+
+
+
+
+
+
+
+
